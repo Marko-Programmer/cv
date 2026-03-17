@@ -1,396 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marko Zhenchuk - CV</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/curriculum-vitae.png" type="image/png">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
     <meta name="description" content="CV of Marko Zhenchuk">
-    <meta property="og:title" content="Marko Zhenchuk - CV">
-    <meta property="og:description" content="Marko Zhenchuk's resume">
-    <meta name="google-site-verification" content="5PW0RCib1sJIkHwlqwEXnkmzyYbxv2z2WFUJwQDKgKU" />
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
 </head>
-
 <body>
-
-
     <div class="wrapper">
-
-        <header class="header"> </header>
-
+        <header class="header"></header>
 
         <div class="content">
-
-
             <aside class="aside">
-
                 <div class="img_container">
                     <img src="img/CV_Photo.jpg" alt="Profile photo" class="cv_img">
                 </div>
                 <section class="contact">
                     <ul class="contact_list">
                         <li class="contact_item">
+                            <a href="mailto:zhenchukmarko@gmail.com" class="contact_link">
+                                <div class="contact_svg_block"><img src="img/post.png" alt="Email svg" class="contact_svg"></div>
+                                <span class="contact_text">zhenchukmarko@gmail.com</span>
+                            </a>
+                        </li>
+                        <li class="contact_item">
                             <a href="tel:+48730014539" class="contact_link">
-                                <div class="contact_svg_block">
-                                    <img src="img/telephone.png" alt="mobile svg" class="contact_svg">
-                                </div>
+                                <div class="contact_svg_block"><img src="img/telephone.png" alt="Phone svg" class="contact_svg"></div>
                                 <span class="contact_text">+48-730-014-539</span>
                             </a>
                         </li>
                         <li class="contact_item">
                             <a href="tel:+380684699387" class="contact_link">
-                                <div class="contact_svg_block">
-                                    <img src="img/telephone.png" alt="mobile svg" class="contact_svg">
-                                </div>
+                                <div class="contact_svg_block"><img src="img/telephone.png" alt="Phone svg" class="contact_svg"></div>
                                 <span class="contact_text">+380-68-469-93-87</span>
                             </a>
                         </li>
                         <li class="contact_item">
-                            <a href="mailto:zhenchukmarko@gmail.com" class="contact_link">
-                                <div class="contact_svg_block">
-                                    <img src="img/post.png" alt="post svg" class="contact_svg">
-                                </div>
-                                <span class="contact_text">zhenchukmarko@gmail.com</span>
-                            </a>
-                        </li>
-                        <li class="contact_item">
-                            <a href="https://www.linkedin.com/in/marko-zhenchuk-812726357/" class="contact_link">
-                                <div class="contact_svg_block">
-                                    <img src="img/linkedin.png" alt="site svg" class="contact_svg">
-                                </div>
+                            <a href="https://www.linkedin.com/in/marko-zhenchuk-812726357/" target="_blank" class="contact_link">
+                                <div class="contact_svg_block"><img src="img/linkedin.png" alt="LinkedIn svg" class="contact_svg"></div>
                                 <span class="contact_text">LinkedIn</span>
                             </a>
                         </li>
                         <li class="contact_item">
-                            <a href="https://github.com/Marko-Programmer" class="contact_link">
-                                <div class="contact_svg_block">
-                                    <img src="img/github.png" alt="site svg" class="contact_svg">
-                                </div>
+                            <a href="https://github.com/Marko-Programmer" target="_blank" class="contact_link">
+                                <div class="contact_svg_block"><img src="img/github.png" alt="GitHub svg" class="contact_svg"></div>
                                 <span class="contact_text">GitHub</span>
                             </a>
-                        </li>
+                        </li> 
                         <li class="contact_item">
-                            <a href="https://leetcode.com/u/Marko_Zh/" class="contact_link">
-                                <div class="contact_svg_block">
-                                    <img src="img/leetcode.svg" alt="site svg" class="contact_svg">
-                                </div>
+                            <a href="https://leetcode.com/u/Marko_Zh/" target="_blank" class="contact_link">
+                                <div class="contact_svg_block"><img src="img/leetcode.svg" alt="LeetCode svg" class="contact_svg"></div>
                                 <span class="contact_text">LeetCode</span>
                             </a>
                         </li>
                     </ul>
                 </section>
+                
                 <section class="aside_block">
-                    <div class="aside_titleBlock">
-                        <h2 class="aside_title">Hard Skills</h2>
-                    </div>
+                    <div class="aside_titleBlock"><h2 class="aside_title" data-i18n="hard_skills_title">Skills</h2></div>
                     <ul class="aside_list">
-                        <li class="aside_items"><span>Programming:</span> Java, C++, SQL, JavaScript</li>
-                        <li class="aside_items"><span>Databases:</span> MySQL, Oracle SQL, JDBC, Hibernate, Spring Data
-                            JPA</li>
-                        <li class="aside_items"><span>Web Tech:</span> HTML5, CSS (SASS), REST API, Spring (Boot, MVC,
-                            Security), JWT, Validation, Exception Handling, Swagger</li>
-                        <li class="aside_items"><span>Tools:</span> Git, IntelliJ IDEA, Maven, Visual Studio, JUnit 5,
-                            Mockito, SLF4J/Logback, Docker</li>
-                        <li class="aside_items"><span>Other Concepts:</span> SOLID, DRY, KISS, IoC/DI, Design Patterns,
-                            CRUD, DAO, ORM, Unit/Integration Testing, Clean Architecture</li>
-                    </ul>
-                </section>
-                <section class="aside_block">
-                    <div class="aside_titleBlock">
-                        <h2 class="aside_title">Soft Skills</h2>
-                    </div>
-                    <ul class="aside_list">
-                        <li class="aside_items">Problem Solving</li>
-                        <li class="aside_items">Analytical Thinking</li>
-                        <li class="aside_items">Self-Learning</li>
-                        <li class="aside_items">Teamwork</li>
-                        <li class="aside_items">Communication</li>
-                    </ul>
-                </section>
-                <section class="aside_block">
-                    <div class="aside_titleBlock">
-                        <h2 class="aside_title">Language</h2>
-                    </div>
-                    <ul class="aside_list">
-                        <li class="aside_items">English - B1</li>
-                        <li class="aside_items">German - A2</li>
-                        <li class="aside_items">Polish - B1</li>
-                        <li class="aside_items">Ukrainian - С1</li>
-                    </ul>
-                </section>
-                <section class="aside_block">
-                    <div class="aside_titleBlock">
-                        <h2 class="aside_title">Hobbies</h2>
-                    </div>
-                    <ul class="aside_list">
-                        <li class="aside_items">Car Enthusiast</li>
-                        <li class="aside_items">Music lover</li>
-                        <li class="aside_items">Self-Improvement </li>
+                        <li class="aside_items" data-i18n="hs_1"><span>Backend:</span> Java, Spring Ecosystem (Boot, Security, Data JPA, MVC), REST API, JWT</li>
+                        <li class="aside_items" data-i18n="hs_2"><span>Frontend:</span> Angular, TypeScript, RxJS, JavaScript, Bootstrap, SCSS, HTML5</li>
+                        <li class="aside_items" data-i18n="hs_3"><span>Databases & Caching:</span> PostgreSQL, Redis, MySQL, Hibernate, JDBC</li>
+                        <li class="aside_items" data-i18n="hs_4"><span>Tools & DevOps:</span> AWS S3, Docker, Git, Maven</li>
+                        <li class="aside_items" data-i18n="hs_5"><span>Testing:</span> JUnit 5, Mockito, Unit/Integration Testing</li>
                     </ul>
                 </section>
 
+                <section class="aside_block">
+                    <div class="aside_titleBlock"><h2 class="aside_title" data-i18n="soft_skills_title">Soft Skills</h2></div>
+                    <ul class="aside_list">
+                        <li class="aside_items" data-i18n="ss_1">Problem Solving</li>
+                        <li class="aside_items" data-i18n="ss_2">Analytical Thinking</li>
+                        <li class="aside_items" data-i18n="ss_3">Self-Learning</li>
+                        <li class="aside_items" data-i18n="ss_4">Teamwork</li>
+                        <li class="aside_items" data-i18n="ss_5">Communication</li>
+                    </ul>
+                </section>
+
+                <section class="aside_block">
+                    <div class="aside_titleBlock"><h2 class="aside_title" data-i18n="lang_title">Language</h2></div>
+                    <ul class="aside_list">
+                        <li class="aside_items" data-i18n="l_1">Ukrainian - Native</li>
+                        <li class="aside_items" data-i18n="l_2">English - B2</li>
+                        <li class="aside_items" data-i18n="l_3">Polish - B2</li>
+                        <li class="aside_items" data-i18n="l_4">German - A2</li>
+                    </ul>
+                </section>
             </aside>
-
 
             <main class="main">
                 <div class="lang_block">
-                    <span class="lang_label">Language:</span>
-                    <div class="lang_dropdown">
-                        <button class="lang_button" id="lang_button">EN</button>
-                        <div class="lang_menu">
-                            <a href="index.html" class="lang_item" id="en_link">EN</a>
-                            <a href="html/index_pl.html" class="lang_item" id="pl_link">PL</a>
-                            <a href="html/index_de.html" class="lang_item" id="de_link">DE</a>
-                            <a href="html/index_ua.html" class="lang_item" id="ua_link">UA</a>
-                        </div>
+                    <span class="lang_label" data-i18n="lang_label">Language:</span>
+                    <div class="lang_buttons">
+                        <button class="lang_btn active" data-lang="en">EN</button>
+                        <button class="lang_btn" data-lang="pl">PL</button>
+                        <button class="lang_btn" data-lang="de">DE</button>
+                        <button class="lang_btn" data-lang="ua">UA</button>
                     </div>
                 </div>
 
                 <div class="name_block">
-                    <h1 class="name">Marko zhenchuk</h1>
-                    <p class="position">SOFTWARE DEVELOPER</p>
+                    <h1 class="name" data-i18n="name">Marko Zhenchuk</h1>
+                    <p class="position" data-i18n="position">FULL-STACK JAVA DEVELOPER</p>
                 </div>
+
                 <section class="profile">
                     <div class="profile_title_block">
                         <img src="img/profile.png" alt="profile svg" class="profile_svg">
-                        <h2 class="profile_title">Profile</h2>
+                        <h2 class="profile_title" data-i18n="profile_title">Summary</h2>
                     </div>
-                    <p class="title_text">Motivated and goal-oriented beginner developer with a deep interest in
-                        algorithms, data structures, and modern technologies.
-                        I aim to become a professional who inspires others to learn and develop. Open to new challenges
-                        and ready to learn quickly.</p>
+                    <p class="title_text" data-i18n="profile_text">Versatile Full-Stack Software Engineer with commercial freelance experience, specializing in the Java/Spring backend and modern frontend frameworks like Angular. Proven track record of delivering end-to-end web solutions—from designing scalable REST APIs and secure databases to building responsive, interactive user interfaces. Passionate about clean architecture, system integration, and solving complex business problems.</p>
                 </section>
-                <section class="education">
-                    <div class="education_title_block">
-                        <img src="img/education.png" alt="education svg" class="education_svg">
-                        <h2 class="education_title">Education</h2>
-                    </div>
-                    <div class="education_item">
-                        <div class="education_years">
-                            <p class="education_year">2024 – 2028</p>
-                        </div>
-                        <div class="education_description">
-                            <h3 class="education_item_title">Opole University of Technology</h3>
-                            <h4 class="education_faculty">Computer Science</h4>
-                            <ul class="education_list">
-                                <li class="education_list_item">Maintaining excellent academic performance </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="education_item">
-                        <div class="education_years">
-                            <p class="education_year">2023 - 2024</p>
-                        </div>
-                        <div class="education_description">
-                            <h3 class="education_item_title">Lviv Polytechnic National University</h3>
-                            <h4 class="education_faculty">Computer Science</h4>
-                            <ul class="education_list">
-                                <li class="education_list_item"> Completed the first year with distinction</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+
                 <section class="experience">
                     <div class="experience_title_block">
                         <img src="img/experience.png" alt="experience svg" class="experience_svg">
-                        <h2 class="experience_title">Experience</h2>
+                        <h2 class="experience_title" data-i18n="exp_title">Commercial Experience & Featured Projects</h2>
                     </div>
 
                     <div class="experience_item">
-                        <h4 class="experience_item_name">Room Reservation API</h4>
-                        <p class="experience_item_description"><span>Description:</span> Room Reservation API is a
-                            Spring Boot RESTful application for managing room bookings.
-                            It allows viewing available rooms, creating and canceling bookings, and checking room
-                            availability.</p>
-                        <p class="experience_item_technologies"><span>Tech Stack:</span> Java, SQL, Spring Boot,
-                            JPA/Hibernate, MySQL, REST API, Git, Maven</p>
-                        <p class="experience_item_role"><span>Role:</span> Full-Stack Java Developer.
-                            Developed and maintained the full application, handling backend logic, database design, and
-                            REST API integration.</p>
+                        <h4 class="experience_item_name" data-i18n="exp_1_name">Anonymous Feedback Bot <span class="project-type">| Commercial / Freelance</span></h4>
+                        <p class="experience_item_technologies" data-i18n="exp_1_tech"><span>Tech:</span> Java, Spring Boot, PostgreSQL, Google AI (Gemini API), Google Sheets API, Trello API</p>
+                        <p class="experience_item_role" data-i18n="exp_1_role"><span>Key Contributions:</span> Developed a commercial Telegram bot for an auto service, integrating Gemini API for automated sentiment and urgency analysis. Engineered automated data synchronization with Google Sheets and Trello for critical management alerts. Built a secure admin panel to manage and filter feedback based on employee roles and branches.</p>
                     </div>
 
                     <div class="experience_item">
-                        <h4 class="experience_item_name">Perfect Pickling Recipes</h4>
-                        <p class="experience_item_description"><span>Description:</span> A responsive multi-page website
-                            with pop-ups, burger menu logic, and interactive elements. Securely hosted online with an
-                            SSL certificate.</p>
-                        <p class="experience_item_technologies"><span>Tech Stack:</span> HTML, CSS, SCSS, JavaScript
-                        </p>
-                        <p class="experience_item_role"><span>Role:</span> Frontend Developer, UI/UX Designer &
-                            Deployment Engineer.
-                            Fully designed, developed, and deployed the website, ensuring adaptability, interactivity,
-                            and secure hosting.</p>
+                        <h4 class="experience_item_name" data-i18n="exp_2_name">Advanced Blog API <span class="project-type">| Personal Project</span></h4>
+                        <p class="experience_item_technologies" data-i18n="exp_2_tech"><span>Tech:</span> Java, Spring Boot, Spring Security (JWT), Redis, Docker, MySQL</p>
+                        <p class="experience_item_role" data-i18n="exp_2_role"><span>Key Contributions:</span> Engineered a robust RESTful API featuring strict role-based access control and DTO-driven data mapping. Integrated Redis caching to significantly optimize read-heavy endpoints and reduce database load. Containerized the application with Docker and ensured high reliability through comprehensive unit and integration testing.</p>
                     </div>
 
                     <div class="experience_item">
-                        <h4 class="experience_item_name">Anonymous Feedback Bot</h4>
-                        <p class="experience_item_description"><span>Description:</span>Telegram bot for collecting
-                            anonymous employee feedback in an auto service. Features
-                            role and branch selection, feedback analysis via Gemini API, PostgreSQL database storage,
-                            Google
-                            Sheets synchronization, Trello integration for critical feedback, and an admin panel for
-                            managing and
-                            filtering messages by branch, role, and criticality.
-                        </p>
-                        <p class="experience_item_technologies"><span>Tech Stack:</span>Java, Telegram Bot API,
-                            PostgreSQL, Gemini API, Google Sheets API, Trello API, REST,
-                            Git</p>
-                        <p class="experience_item_role"><span>Role:</span> Full-Stack Java Developer. Developed backend
-                            logic, implemented feedback analysis and
-                            storage, integrated third-party APIs, and created admin panel for message management.</p>
+                        <h4 class="experience_item_name" data-i18n="exp_3_name">Angular Task & Notes Management System <span class="project-type">| Personal Project</span></h4>
+                        <p class="experience_item_technologies" data-i18n="exp_3_tech"><span>Tech:</span> Angular, TypeScript, Bootstrap</p>
+                        <p class="experience_item_role" data-i18n="exp_3_role"><span>Key Contributions:</span> Developed a high-performance Single Page Application using Angular’s modern Signals API and reactive forms. Implemented a service-oriented architecture to efficiently manage application state and API communication. Designed a responsive UI with Bootstrap, including real-time form validation. Built full CRUD functionality for managing notes with persistent data storage.</p>
                     </div>
-
-
-                    <div class="experience_item">
-                        <h4 class="experience_item_name" id="experience_item_name_other">More projects and code samples
-                            are available on my GitHub,
-                            solved over 100 problems on LeetCode, enhancing skills in algorithms and data structures.
-                        </h4>
-                    </div>
-
-                </section>
-                <section class="consent">
-                    <div class="consent_title_block">
-                        <img src="img/shield.png" alt="consent svg" class="consent_svg">
-                        <h2 class="consent_title">Consent for Data Processing</h2>
-                    </div>
-                    <p class="consent_text">I hereby consent to the processing of my personal data for the purposes of
-                        the recruitment process in accordance with GDPR.</p>
-                </section>
-                <section class="download">
-                    <a href="pdf/CV.pdf" download="Marko Zhenchuk's resume.pdf" class="download-button">Download
-                        CV</a>
                 </section>
 
-
-
-
-
-                <section class="contact" id="hidden_segment">
-                    <ul class="contact_list">
-                        <li class="contact_item">
-                            <a href="tel:+48730014539" class="contact_link">
-                                <div class="contact_svg_block">
-                                    <img src="img/telephone.png" alt="mobile svg" class="contact_svg">
-                                </div>
-                                <span class="contact_text">+48-730-014-539</span>
-                            </a>
-                        </li>
-                        <li class="contact_item">
-                            <a href="tel:+380684699387" class="contact_link">
-                                <div class="contact_svg_block">
-                                    <img src="img/telephone.png" alt="mobile svg" class="contact_svg">
-                                </div>
-                                <span class="contact_text">+380-68-469-93-87</span>
-                            </a>
-                        </li>
-                        <li class="contact_item">
-                            <a href="mailto:zhenchukmarko@gmail.com" class="contact_link">
-                                <div class="contact_svg_block">
-                                    <img src="img/post.png" alt="post svg" class="contact_svg">
-                                </div>
-                                <span class="contact_text">zhenchukmarko@gmail.com</span>
-                            </a>
-                        </li>
-                        <li class="contact_item">
-                            <a href="https://www.linkedin.com/in/marko-zhenchuk-812726357/" class="contact_link">
-                                <div class="contact_svg_block">
-                                    <img src="img/linkedin.png" alt="site svg" class="contact_svg">
-                                </div>
-                                <span class="contact_text">LinkedIn</span>
-                            </a>
-                        </li>
-                        <li class="contact_item">
-                            <a href="https://github.com/Marko-Programmer" class="contact_link">
-                                <div class="contact_svg_block">
-                                    <img src="img/github.png" alt="site svg" class="contact_svg">
-                                </div>
-                                <span class="contact_text">GitHub</span>
-                            </a>
-                        </li>
-                        <li class="contact_item">
-                            <a href="https://leetcode.com/u/Marko_Zh/" class="contact_link">
-                                <div class="contact_svg_block">
-                                    <img src="img/leetcode.svg" alt="site svg" class="contact_svg">
-                                </div>
-                                <span class="contact_text">LeetCode</span>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-                <section class="aside_block" id="hidden_segment">
-                    <div class="aside_titleBlock">
-                        <h2 class="aside_title">Hard Skills</h2>
-                    </div>
-                    <ul class="aside_list">
-                        <li class="aside_items"><span>Programming:</span> Java, C++, SQL, JavaScript</li>
-                        <li class="aside_items"><span>Databases:</span> MySQL, Oracle SQL, JDBC, Hibernate, Spring Data
-                            JPA</li>
-                        <li class="aside_items"><span>Web Tech:</span> HTML5, CSS (SASS), REST API, Spring (Boot, MVC,
-                            Security), JWT, Validation, Exception Handling, Swagger</li>
-                        <li class="aside_items"><span>Tools:</span> Git, IntelliJ IDEA, Maven, Visual Studio, JUnit 5,
-                            Mockito, SLF4J/Logback, Docker</li>
-                        <li class="aside_items"><span>Other Concepts:</span>SOLID, DRY, KISS, IoC/DI, Design Patterns,
-                            CRUD, DAO, ORM, Unit/Integration Testing, Clean Architecture</li>
-                    </ul>
-                </section>
-                <section class="aside_block" id="hidden_segment">
-                    <div class="aside_titleBlock">
-                        <h2 class="aside_title">Soft Skills</h2>
-                    </div>
-                    <ul class="aside_list">
-                        <li class="aside_items">Problem Solving</li>
-                        <li class="aside_items">Analytical Thinking</li>
-                        <li class="aside_items">Self-Learning</li>
-                        <li class="aside_items">Teamwork</li>
-                        <li class="aside_items">Communication</li>
-                    </ul>
-                </section>
-                <section class="aside_block" id="hidden_segment">
-                    <div class="aside_titleBlock">
-                        <h2 class="aside_title">Language</h2>
-                    </div>
-                    <ul class="aside_list">
-                        <li class="aside_items">English - B1</li>
-                        <li class="aside_items">German - A2</li>
-                        <li class="aside_items">Polish - B1</li>
-                        <li class="aside_items">Ukrainian - С1</li>
-                    </ul>
-                </section>
-                <section class="aside_block" id="hidden_segment">
-                    <div class="aside_titleBlock">
-                        <h2 class="aside_title">Hobbies</h2>
-                    </div>
-                    <ul class="aside_list">
-                        <li class="aside_items">Car Enthusiast</li>
-                        <li class="aside_items">Music lover</li>
-                        <li class="aside_items">Self-Improvement </li>
-                    </ul>
-                </section>
-            </main>
-
-        </div>
-
-        <footer class="footer"></footer>
-
-
-
-
-
-
-
+<section class="education">
+    <div class="education_title_block">
+        <img src="img/education.png" alt="education svg" class="education_svg">
+        <h2 class="education_title" data-i18n="edu_title">Education</h2>
     </div>
+    <div class="education_compact_item">
+        <div class="edu_header">
+            <h3 class="education_item_title" data-i18n="edu_1_uni">Opole University of Technology, Poland</h3>
+            <span class="education_year">2024 – Present</span>
+        </div>
+        <h4 class="education_faculty" data-i18n="edu_1_fac">Computer Science</h4>
+    </div>
+    <div class="education_compact_item">
+        <div class="edu_header">
+            <h3 class="education_item_title" data-i18n="edu_2_uni">National University "Lviv Polytechnic", Ukraine</h3>
+            <span class="education_year">2023 – 2024</span>
+        </div>
+        <h4 class="education_faculty" data-i18n="edu_2_fac">Computer Science</h4>
+    </div>
+</section>
 
+                <section class="consent">
+                    <div class="consent_left">
+                        <div class="consent_title_block">
+                            <img src="img/shield.png" alt="consent svg" class="consent_svg">
+                            <h2 class="consent_title" data-i18n="consent_title">Consent</h2>
+                        </div>
+                        <p class="consent_text" data-i18n="consent_text">I hereby consent to the processing of my personal data for the purposes of the recruitment process in accordance with GDPR.</p>
+                    </div>
+                    <div class="consent_right">
+                        <a href="pdf/CV_FullStack.pdf" download="Marko Zhenchuk's resume.pdf" class="download-button" id="download_cv" data-i18n="download">Download CV</a>
+                    </div>
+                </section>
 
-
-
-
+            </main>
+        </div>
+        <footer class="footer"></footer>
+    </div>
 </body>
-
 </html>
